@@ -20,7 +20,7 @@ from torch.utils.data import Dataset, Sampler
 
 from transformers import BartTokenizer, EvalPrediction, PreTrainedTokenizer, T5Tokenizer
 from transformers.file_utils import cached_property
-from transformers.modeling_bart import shift_tokens_right
+from transformers.models.bart.modeling_bart import shift_tokens_right
 
 from pytorch_lightning.utilities import rank_zero_info
 
